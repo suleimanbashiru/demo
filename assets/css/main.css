@@ -177,10 +177,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
-		/* margin-bottom: 1.5em; */ 
-	}
-
+	
 	br.clear {
 		clear: both;
 	}
@@ -1951,7 +1948,7 @@ input, select, textarea {
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: rgb(85, 85, 85) !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -2118,7 +2115,7 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
 		position: relative;
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
@@ -2390,7 +2387,7 @@ input, select, textarea {
 		text-align: center;
 		border-top: solid 1px #d2d7dc;
 		color: #a2a7ac;
-		padding-top: 4em;
+		/* padding-top: 4em; */
 		margin-top: 6em;
 	}
 
